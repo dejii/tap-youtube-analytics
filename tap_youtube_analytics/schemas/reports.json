@@ -94,6 +94,9 @@
     "subtitle_language": {
       "type": ["null", "string"]
     },
+    "subtitle_language_autotranslated": {
+      "type": ["null", "string"]
+    },
     "ad_type": {
       "type": ["null", "string"]
     },
