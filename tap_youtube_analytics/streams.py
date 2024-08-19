@@ -104,9 +104,8 @@ REPORTS = {
     'channel_demographics': {
         'report_type': 'channel_demographics_a1',
         'dimensions': ['date', 'channel_id', 'video_id', 'live_or_on_demand',
-            'subscribed_status', 'country_code', 'device_type', 'operating_system'],
-        'metrics': ['views', 'watch_time_minutes', 'average_view_duration_seconds',
-            'average_view_duration_percentage', 'red_views', 'red_watch_time_minutes']
+            'subscribed_status', 'country_code', 'age_group', 'gender'],
+        'metrics': ['views_percentage']
     },
 
     'channel_sharing_service': {
@@ -144,7 +143,7 @@ REPORTS = {
     'channel_subtitles': {
         'report_type': 'channel_subtitles_a2',
         'dimensions': ['date', 'channel_id', 'video_id', 'live_or_on_demand', 'subscribed_status',
-            'country_code', 'subtitle_language'],
+            'country_code', 'subtitle_language', 'subtitle_language_autotranslated'],
         'metrics': ['views', 'watch_time_minutes', 'average_view_duration_seconds',
             'average_view_duration_percentage', 'red_views', 'red_watch_time_minutes']
     },
